@@ -5,10 +5,10 @@ main {
 	color: #AF3D4E;
 }
 
-.icons-social a {
+a {
 	color: #AF3D4E;
 }
 
-.icons-social a svg path{
+a svg path{
 	fill: #AF3D4E;
 }
