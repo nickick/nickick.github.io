@@ -129,24 +129,15 @@ body {
 	padding: 0 1em;
 	margin-bottom: 1em;
   display: grid;
-  grid-template-columns: auto 10em;
+  grid-template-columns: auto 15em;
   grid-template-rows: auto;
   grid-template-areas:
-    "basics-name image"
-    "basics-name image"
-    "basics ."
-    "basics .";
+    "basics-name basics"
+    "basics-name basics";
   align-items: start;
 }
 
 #resume > header div.middle {
-	padding-top: 1.5em;
-}
-
-header img {
-	width: 10em;
-	border-radius: 50%;
-  grid-area: image;
 }
 
 header .name {
@@ -437,7 +428,7 @@ ul.keywords {
 /******************
 *		HELPER CLASSES
 ******************/
-.fa {
+.fa, .fab {
 	min-width: 1.25em;
 	margin-right: 0.25em;
 	text-align: center;
@@ -598,11 +589,10 @@ ul.keywords {
 	</head><body>
 		<div id="resume">
 				<header id="header">
-						<img src="images/65422941_10101967703064088_189490211888037888_n.jpg" alt="Nick Hong">
-						<div class="middle">
-							<h1 class="name">Nick Hong</h1>
-							<h2 class="label">Engineering Manager</h2>
-						</div>
+					<div class="middle">
+						<h1 class="name">Nick Hong</h1>
+						<h2 class="label">Engineering Manager</h2>
+					</div>
 
           <div id="basics">
 
@@ -624,7 +614,7 @@ ul.keywords {
 
             <div id="profiles">
               <div class="item">
-                <span class="network fab fa fa-linkedin-in linkedin"></span>
+                <span class="network fab fa-linkedin"></span>
                 <span class="username">
                   <span>
                     <a href="https://linkedin.com/in/nickhong" target="_blank">linkedin.com/in/nickhong</a>
